@@ -13,7 +13,7 @@ def login():
     data = request.json
     username = data.get('username')
     password = data.get('password')
-    if username == "admin" and password == "123":
+    if username == "mohammed baguira" and password == "m1o2h3a4m5e6d":
         return jsonify({"success": True, "message": "مرحباً بك في منصة مستقبلي"})
     return jsonify({"success": False, "message": "خطأ في البيانات"})
 
